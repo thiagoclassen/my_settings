@@ -1,6 +1,10 @@
 // Place your settings in this file to overwrite the default settings
 {
-
+    "editor.minimap.enabled": false,
+    "explorer.openEditors.visible": 0,
+    "git.enabled": true,
+    "git.autorefresh": true,    
+    "git.autofetch": true,
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
@@ -9,9 +13,8 @@
         "**/*.js": {"when": "$(basename).ts"}
         //"**/*.spec.ts": {"when": "$(basename).ts"}
     },
-    "explorer.openEditors.visible": 0,
-    "git.enabled": false,
-     "git.autofetch": false,
-     "editor.formatOnType": true
-     
+    "workbench.welcome.enabled": false,
+    "workbench.iconTheme": "vscode-icons",
+    "vsicons.dontShowNewVersionMessage": true,
+    "files.autoSave": "off"
 }

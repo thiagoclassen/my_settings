@@ -4,9 +4,20 @@
         "key": "ctrl+d",
         "command": "editor.action.deleteLines",
         "when": "editorTextFocus"
-    },{
+    },
+    {
         "key": "alt+shift+r",
         "command": "editor.action.changeAll",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+shift+f",
+        "command": "editor.action.format",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+c",
+        "command": "editor.action.addCommentLine",
         "when": "editorTextFocus"
     }
 ]
